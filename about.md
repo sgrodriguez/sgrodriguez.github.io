@@ -7,9 +7,9 @@ Hi, my name is Santiago Rodriguez. Im a software engineer based in Buenos Aires,
 
 Random facts: I like cycling, I used to play the trumpet. I play airsoft take theater classes and prepare a very good napoletana pizza.
 
-## Expirience
+## Experience
 
-* **[October 2018 - Today]** Back End Enginieer at [**Brubank**](https://brubank.com/) (Biggest digital bank in Argentina)
+* **[October 2018 - Today]** Back End Engineer at [**Brubank**](https://brubank.com/) (Biggest digital bank in Argentina)
 * **[June 2017 - October 2018]** Security Engineer at [**MercadoLibre**](https://mercadolibre.com/) (Top 1 latam e-commerce platform)
 
 ## Education
