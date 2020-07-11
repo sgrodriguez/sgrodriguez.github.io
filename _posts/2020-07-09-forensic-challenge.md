@@ -5,7 +5,7 @@ title: Forensic CTF for new college students
 
 ## Introduction
 
-Some time ago I was entrusted with the task of designing some exercises to be part of a CFT with the aim of introducing some concepts of computer security to first and second year students of the university without previous experience. I found this task quite difficult as striking a balance in the difficulty of the exercises turned out not to be as easy as I thought. I decided to focus on the forensics area because it was quite direct for me to draw a parallel with what a police detective would have to do and at the same time allow students to learn about protocols like TCP HTTP, tools like wireshark, scapy, hexdump etc. I hope you enjoy them as much as I do creating them, good luck.
+Some time ago I was entrusted with the task of designing some exercises to be part of a CTF. Which aim was to introduce information security concepts to university first years students without previous experience in that field. I found this task quite difficult as striking a balance in the difficulty of the exercises turned out not to be as easy as I thought. I decided to focus on the forensics area because it was direct for me to draw a parallel with what a police detective would have to do and at the same time allow students to learn about protocols like TCP HTTP, tools like wireshark, scapy, hexdump etc. I hope you enjoy them as much as I do creating them, good luck.
 
 ### **Challenge 1:** Mobs chat
 
