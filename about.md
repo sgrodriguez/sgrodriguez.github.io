@@ -5,12 +5,7 @@ title: About me
 
 Hi, my name is Santiago Rodriguez. I am a software engineer based in Buenos Aires, Argentina. I’m passionate about scalable systems, good code practices, information security and problem solving in general. I enjoy improving my skills reading books, articles and participating in open source projects. I am a lifelong learner.
 
-Random facts: 
-* I like cycling. 
-* I used to play the trumpet.
-* Play airsoft.
-* Take theater classes.
-* Prepare a very good napoletana pizza.
+Random facts: I like cycling, playing airsoft. I'm kind of an artist too, I used to play the trumpet and now I'm currently experiencing with theater classes. Last but not least, I prepare a very good napoletana pizza.
 
 ## Experience
 
