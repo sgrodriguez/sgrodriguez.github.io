@@ -54,7 +54,7 @@ func commonAndBoringFunctionname(w http.ResponseWriter, r *http.Request){
 }
 ```
 
-The way to mitigate this problem is quite simple:
+The way to mitigate this problem is quite simple, just create a new server mux:
 
 ```go
 serverMux := http.NewServeMux()
