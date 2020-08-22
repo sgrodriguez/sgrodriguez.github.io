@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Avoid using golang DefaultServerMux for production servers
+title: Avoid using golang http.DefaultServerMux for production servers
 ---
 
 I saw many guides and post showing a handy and simple way to create a webserver in go like this:
@@ -27,9 +27,9 @@ func main() {
 }
 ```
 
-Internally http.HandleFunc and http.Handle registers the handler/handler function in the DefaultServeMux. The problem is that DefaultServerMux is a global and exported var.
+Internally http.HandleFunc and http.Handle registers the handler/handler function in the DefaultServerMux. The problem is that DefaultServerMux is a global and exported var.
 
-So if you import some malicious or hijacked lib they can attach a handler to the DefaultHandlerMux, for example in the init.
+So if you import some malicious or hijacked lib, an attacker can attach a handler to the DefaultHandlerMux, for example in the init.
 
 ```go
 func init(){
