@@ -27,7 +27,7 @@ func main() {
 }
 ```
 
-Internally http.HandleFunc and http.Handle registers the handler/handler function in the DefaultServerMux. The problem is that DefaultServerMux is a global and exported var.
+Internally http.HandleFunc and http.Handle register the handler/handler function in the DefaultServerMux. The problem is that DefaultServerMux is a global and exported var.
 
 So if you import some malicious or hijacked lib, an attacker can attach a handler to the DefaultHandlerMux, for example in the init.
 
@@ -54,10 +54,11 @@ func commonAndBoringFunctionname(w http.ResponseWriter, r *http.Request){
 }
 ```
 
-The way to mitigate this problem is quite simple, just create a new server mux:
+Its not hard to hide or obfuscate code in large projects or codebases but
+the way to mitigate this problem is quite simple, just create a new server mux:
 
 ```go
 serverMux := http.NewServeMux()
 ```
 
-Thanks for reading!
+In my opinion the biggest and most important lesson is not to add untrusted third-party libraries without a minimum verification.
