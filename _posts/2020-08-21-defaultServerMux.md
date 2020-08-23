@@ -29,7 +29,7 @@ func main() {
 
 Internally http.HandleFunc and http.Handle register the handler/handler function in the DefaultServerMux. The problem is that DefaultServerMux is a global and exported var.
 
-So if you import some malicious or hijacked lib, an attacker can attach a handler to the DefaultHandlerMux, for example in the init.
+An attacker might develop a malicious lib or hijack an existing one and attach a handler to the DefaultHandlerMux, for example in the init.
 
 ```go
 func init(){
