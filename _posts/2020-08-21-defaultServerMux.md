@@ -32,6 +32,8 @@ Internally http.HandleFunc and http.Handle register the handler/handler function
 An attacker might develop a malicious lib or hijack an existing one and attach a handler to the DefaultHandlerMux, for example in the init.
 
 ```go
+package evillogger
+
 func init(){
 	someBoringSetUp()
 }
