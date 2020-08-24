@@ -47,12 +47,12 @@ func commonAndBoringFunctionname(w http.ResponseWriter, r *http.Request){
 		Key string
 		Value string
 	}
-	asd := []osenv{}
+	envs := []osenv{}
 	for _, element := range os.Environ() {
 		variable := strings.Split(element, "=")
-		asd = append(asd, osenv{Key: variable[0], Value: variable[1]})
+		envs = append(envs, osenv{Key: variable[0], Value: variable[1]})
 	}
-	_ = json.NewEncoder(w).Encode(map[string]interface{}{"inyected: ": &asd})
+	_ = json.NewEncoder(w).Encode(map[string]interface{}{"inyected: ": &envs})
 }
 ```
 
