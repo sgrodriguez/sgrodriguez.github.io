@@ -14,7 +14,7 @@ Random facts: I like cycling, playing airsoft. I'm kind of an artist too, I used
 
 ## Education
 
-Universidad de Buenos Aires. M.S. Computer Science 2014-2022 (Hopefully).
+Universidad de Buenos Aires. M.S. Computer Science 2014-2022.
 
 <p class="message">
 "I made this letter longer than usual because I lack the time to make it short. " Blaise Pascal.
