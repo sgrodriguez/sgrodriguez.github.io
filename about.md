@@ -12,6 +12,9 @@ Random facts: I like cycling, playing airsoft. I'm kind of an artist too, I used
 * **[October 2018 - Today]** Back End Engineer at [**Brubank**](https://brubank.com/) (Biggest digital bank in Argentina)
 * **[June 2017 - October 2018]** Security Engineer at [**MercadoLibre**](https://mercadolibre.com/) (Top 1 latam e-commerce platform)
 
+## Projects
+* [**DDT**](https://github.com/sgrodriguez/ddt) Go dynamic decision tree lib.
+
 ## Education
 
 Universidad de Buenos Aires. M.S. Computer Science 2014-2022.
