@@ -14,7 +14,7 @@ Random facts: I like cycling, playing airsoft. I'm kind of an artist too, I used
 
 ## Projects
 * [**DDT**](https://github.com/sgrodriguez/ddt) Go dynamic decision tree lib.
-* [**YAMS**](https://github.com/sgrodriguez/yams) Yet Another Mock Server, go lightweight replace to postman.
+* [**YAMS**](https://github.com/sgrodriguez/yams) Yet Another Mock Server, go lightweight replace to postman mock server.
 
 ## Education
 
