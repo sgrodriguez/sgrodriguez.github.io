@@ -13,7 +13,7 @@ Random facts: I like cycling, playing airsoft. I'm kind of an artist too, I used
 * **[October 2018 - December 2021]** BackEnd Engineer at [**Brubank**](https://brubank.com/)
 * **[June 2017 - October 2018]** Security Engineer at [**MercadoLibre**](https://mercadolibre.com/) (Top 1 latam e-commerce platform)
 
-[Resume]({{ site.url }}/downloads/santiago_rodriguez_resume.pdf)
+[Resume]({{ site.url }}/downloads/Santiago Gabriel Rodriguez- BE Engineer-Resume.pdf)
 
 ## Projects
 * [**DDT**](https://github.com/sgrodriguez/ddt) Go dynamic decision tree lib.
